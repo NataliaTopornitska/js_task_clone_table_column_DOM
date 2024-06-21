@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector("table"),r=e.querySelector("thead tr"),n=e.querySelectorAll("tbody tr"),t=e.querySelector("tfoot tr"),o=r.children[1].cloneNode(!0);r.insertBefore(o,r.children[r.children.length-1]),n.forEach(function(e){var r=e.children[1].cloneNode(!0);e.insertBefore(r,e.children[e.children.length-1])});var l=t.children[1].cloneNode(!0);t.insertBefore(l,t.children[t.children.length-1])});
+//# sourceMappingURL=index.0bd9c789.js.map
